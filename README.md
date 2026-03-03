@@ -1,6 +1,6 @@
 # ☕ CafeChain-DB: Relational Database Management System
 
-> A comprehensive, highly normalized relational database designed to manage the operations, staff, and analytics of a cafe network. Built with **Oracle SQL** and **PL/SQL**, featuring automated business logic and a Python-based mock data generator.
+A comprehensive, highly normalized relational database designed to manage the operations, staff, and analytics of a cafe network. Built with **Oracle SQL** and **PL/SQL**, featuring automated business logic and a Python-based mock data generator.
 
 ---
 
@@ -61,4 +61,5 @@ Bash
 cd scripts
 pip install -r requirements.txt
 python data_generator.py > ../sql/3_insert_mock_data.sql
+
 Run Analytics: Open sql/4_analytical_queries.sql to test the business intelligence reports.
